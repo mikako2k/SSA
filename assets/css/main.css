@@ -778,7 +778,13 @@ h6 {
   height: auto;
   display: block;
   margin: 0 auto; /* Centers the image */
-  height: 400px;
+  height: 450px;
+}
+@media (max-width: 768px) {
+  .title-image {
+    width: 80%;  /* Smaller size for mobile */
+    height: 300px;
+  }
 }
 
 
